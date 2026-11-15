@@ -1,8 +1,28 @@
-# LockedIn
+# LockedIn: open source Linktree alternative
+
+LockedIn is an open-source Linktree alternative for creators and developers who want a link-in-bio page they own: one link where people follow every account, save your contact, DM, book or pay, across 62 platforms, with no backend because the profile is encoded in the URL.
+
+![The LockedIn demo card on the live site: a profile with Follow All, per-platform follow buttons and live YouTube and GitHub feeds](docs/screenshots/2026-11-15_linktree-alternative-demo-card.png)
+
+[**Live site**](https://tapin-bay.vercel.app). Press See Demo for the card above, or Create Your Card to make your own.
+
+## Quick start
+
+```bash
+git clone https://github.com/DareDev256/linktree-alternative.git
+cd linktree-alternative
+npm install
+npm run dev        # dev server on :3000
+```
+
+License: MIT, see [LICENSE](LICENSE).
+
+---
 
 One-tap connection card. Share every social from a single link. NFC-ready, embeddable, no backend.
 
-The repo, the deployed site and the product are all LockedIn. The React entry
+The product and the deployed site are called LockedIn. The repo is named
+linktree-alternative, which is what people search for. The React entry
 component is still named `TapIn.jsx` and the npm package is still `tapin`,
 which was the working title.
 
