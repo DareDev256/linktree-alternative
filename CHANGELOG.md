@@ -1,5 +1,9 @@
 # Changelog
 
+## [5.2.1] - 2026-11-25
+
+- Copy: section headings are labels; no indicator lights or staccato slogans (James 2026-11-24). Removed the pulsing LIVE pill on the card header; NFC page steps heading and tag note, the hero line and the meta description are single sentences.
+
 ## [5.2.0] - 2026-04-08
 
 ### Added

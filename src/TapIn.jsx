@@ -608,7 +608,7 @@ function LandingPage({ onCreateCard, onViewDemo }) {
 
       <div style={{ animation: "slideUp 0.6s ease-out 0.2s backwards", maxWidth: 600 }}>
         <p style={{ fontSize: 22, color: "rgba(255,255,255,0.8)", lineHeight: 1.6, marginBottom: 8, fontWeight: 300 }}>
-          Not a link page. An <span style={{ color: "#ff2d78", fontWeight: 700 }}>action router</span>.
+          An <span style={{ color: "#ff2d78", fontWeight: 700 }}>action router</span>, not a link page.
         </p>
         <p style={{ fontSize: 16, color: "rgba(255,255,255,0.4)", lineHeight: 1.6, marginBottom: 40 }}>
           One tap to follow everywhere, save contacts, send DMs, book meetings, or get paid. The future of connecting.
@@ -817,7 +817,6 @@ export default function LockedIn() {
         @keyframes bounceIn { 0% { transform: scale(0.3); opacity: 0; } 50% { transform: scale(1.05); } 70% { transform: scale(0.9); } 100% { transform: scale(1); opacity: 1; } }
         @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
         @keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
-        @keyframes livePulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
         .dashboard { animation: slideUp 0.6s ease-out; }
         .card-section { animation: slideUp 0.5s ease-out 0.1s backwards; }
         .feed-section { animation: slideIn 0.6s ease-out 0.2s backwards; }
@@ -829,7 +828,6 @@ export default function LockedIn() {
         .mode-content { animation: fadeSwitch 0.35s ease-out; }
         .avatar-bounce { animation: bounceIn 0.8s ease-out, float 4s ease-in-out 0.8s infinite; }
         .feed-panel:hover { transform: translateY(-2px); }
-        .live-dot { animation: livePulse 1.5s ease-in-out infinite; }
         @keyframes badgeReveal { 0% { opacity: 0; transform: scale(0.8) translateY(6px); } 60% { transform: scale(1.04) translateY(-1px); } 100% { opacity: 1; transform: scale(1) translateY(0); } }
         .stack-badge { animation: badgeReveal 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s backwards; }
         .stack-badge:hover { transform: scale(1.04); filter: brightness(1.15); }
@@ -858,7 +856,7 @@ export default function LockedIn() {
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke={accent} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </div>
             <span style={{ fontFamily: "'Space Mono', monospace", fontWeight: 700, fontSize: 20, color: textColor }}>LockedIn</span>
-            {page === "card" && <div style={{ display: "flex", alignItems: "center", gap: 6, marginLeft: 8, padding: "4px 10px", background: `${accent}12`, borderRadius: 20, color: accent }}><div className="live-dot" style={{ width: 6, height: 6, borderRadius: "50%", background: accent }} /><span style={{ fontSize: 10, fontWeight: 700, letterSpacing: 1.5 }}>LIVE</span></div>}
+            
           </div>
           <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
             {page === "card" && (

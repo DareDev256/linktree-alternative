@@ -1,6 +1,6 @@
 {
   "name": "tapin",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "One-tap connection card — share all your socials with a single link",
   "main": "index.js",
   "scripts": {
